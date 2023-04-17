@@ -8,13 +8,12 @@ Diagram in Crow's foot notation:
 <br>
 <br>
 
-[![logical_model](https://gitlab.atp-fivt.org/dbf2023/valdiviiaviskarrao-project/-/blob/main/Logical_model.png "logical_model")](http://gitlab.atp-fivt.org/dbf2023/valdiviiaviskarrao-project/-/blob/main/Logical_model.png "logical_model")
+[![logical_model](https://github.com/0sant1ago/DATA_BASES/blob/main/Logical_model%20(1).png)](https://github.com/0sant1ago/DATA_BASES/blob/main/Logical_model%20(1).png)
 <br>
 <br>
 Description of the Logical Model:
 <br>
-
-[![description_log_model](https://gitlab.atp-fivt.org/dbf2023/valdiviiaviskarrao-project/-/blob/main/Description_logical_model.jpg "description_log_model")](http://gitlab.atp-fivt.org/dbf2023/valdiviiaviskarrao-project/-/blob/main/Description_logical_model.jpg "description_log_model")
-
+<br>
+[![description_log_model](https://github.com/0sant1ago/DATA_BASES/blob/main/Description_Logical_Model.jpg)](https://github.com/0sant1ago/DATA_BASES/blob/main/Description_Logical_Model.jpg)
 ### Physical Model
 We created the tables [Library.sql](http://gitlab.atp-fivt.org/dbf2023/valdiviiaviskarrao-project/-/blob/main/Library_database.sql "Library.sql") including all relations ilustrated in the above diagrams.
