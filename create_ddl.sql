@@ -52,3 +52,14 @@ create table WAITING_LIST (
     foreign key (PATRON_ID) references PATRON_ACCOUNT(PATRON_ID),
     foreign key (BOOK_ID) references BOOK(BOOK_ID)
 );
+
+create table CHECKOUT (
+    CHECKOUT_ID serial primary key,
+    START_TIME date not null,
+    END_TIME date not null,
+    BOOK_COPY_ID serial not null,
+    IS_RETURNED boolean not null,
+    PATRON_ID serial not null,
+    foreign key (BOOK_COPY_ID) references BOOK_COPY(BOOK_COPY_ID),
+    foreign key (PATRON_ID) references PATRON_ACCOUNT(PATRON_ID)
+);
