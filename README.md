@@ -20,4 +20,14 @@ We created the tables [Library.sql](https://github.com/0sant1ago/DATA_BASES/blob
 <br>
 <br>
 ### Tasks
+Task 3: DDL scripts for creating the tables
+Task 4: Filling the data base with data
+Task 5: Create Read Update Delete (CRUD) operations 
+Task 6: SELECT queries
+Task 7: 
+Task 8: Creating indices for the tables
+Task 9: View submissions
+Task 10: Procedures/Functions
+Task 11: Triggers
+
 
