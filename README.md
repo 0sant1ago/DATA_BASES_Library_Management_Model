@@ -52,7 +52,7 @@ Task 10: Procedures/Functions
 <br>
 <br>
 
-Task 11: Triggers
+Task 11: [Triggers](https://github.com/0sant1ago/DATA_BASES/blob/main/trigger.sql)
 <br>
 <br>
 
