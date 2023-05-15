@@ -20,7 +20,7 @@ We created the tables [Library.sql](https://github.com/0sant1ago/DATA_BASES/blob
 <br>
 <br>
 ### Tasks
-Task 3: DDL scripts for creating the tables
+Task 3: [DDL scripts for creating the tables](https://github.com/0sant1ago/DATA_BASES/blob/main/create_ddl.sql)
 <br>
 <br>
 
