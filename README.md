@@ -16,4 +16,5 @@ Description of the Logical Model:
 <br>
 [![description_log_model](https://github.com/0sant1ago/DATA_BASES/blob/main/Description_Logical_Model.jpg)](https://github.com/0sant1ago/DATA_BASES/blob/main/Description_Logical_Model.jpg)
 ### Physical Model
-We created the tables [Library.sql](http://gitlab.atp-fivt.org/dbf2023/valdiviiaviskarrao-project/-/blob/main/Library_database.sql "Library.sql") including all relations ilustrated in the above diagrams.
+We created the tables [Library.sql](https://github.com/0sant1ago/DATA_BASES/blob/main/Library_database.sql) including all relations ilustrated in the above diagrams.
+
