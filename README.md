@@ -28,7 +28,7 @@ Task 4: Filling the data base with data
 <br>
 <br>
 
-Task 5: Create Read Update Delete (CRUD) operations
+Task 5: [Create Read Update Delete (CRUD) operations](https://github.com/0sant1ago/DATA_BASES/blob/main/crud.sql)
 <br>
 <br>
 
@@ -40,15 +40,15 @@ Task 7:
 <br>
 <br>
 
-Task 8: Creating indices for the tables
+Task 8: [Creating indices for the tables](https://github.com/0sant1ago/DATA_BASES/blob/main/indices.sql)
 <br>
 <br>
 
-Task 9: View submissions
+Task 9: [View submissions](https://github.com/0sant1ago/DATA_BASES/blob/main/views.sql)
 <br>
 <br>
 
-Task 10: Procedures/Functions
+Task 10: [Procedures/Functions](https://github.com/0sant1ago/DATA_BASES/blob/main/func.sql) 
 <br>
 <br>
 
