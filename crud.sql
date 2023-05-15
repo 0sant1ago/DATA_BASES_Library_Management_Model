@@ -1,0 +1,47 @@
+-- 1. CREATE (INSERT) queries:
+--    Insert a new author:
+INSERT INTO AUTHOR (AUTHOR_ID, AUTHOR_NAME, AUTHOR_SURNAME)
+VALUES (11, 'Mark', 'Twain');
+
+
+--    Insert a new book copy:
+INSERT INTO BOOK_COPY (BOOK_COPY_ID, BOOK_ID, EDITORIAL_ID, BOOK_COPY_YEAR_PUBLISHED, BOOK_COPY_LANGUAGE)
+VALUES (11, 3, 3, '1985-03-15', 'English');
+
+
+-- 2. READ (SELECT) queries:
+--    Retrieve all books by a specific author:
+SELECT BOOK.BOOK_TITLE
+FROM BOOK
+INNER JOIN BOOK_AUTHOR ON BOOK.BOOK_ID = BOOK_AUTHOR.BOOK_ID
+INNER JOIN AUTHOR ON AUTHOR.AUTHOR_ID = BOOK_AUTHOR.AUTHOR_ID
+WHERE AUTHOR.AUTHOR_NAME = 'Agatha Christie';
+
+--     Retrieve the total number of book copies for each category:
+SELECT CATEGORY.CATEGORY_NAME, COUNT(BOOK_COPY.BOOK_COPY_ID) AS TotalCopies
+FROM CATEGORY
+LEFT JOIN BOOK ON CATEGORY.CATEGORY_ID = BOOK.CATEGORY_ID
+LEFT JOIN BOOK_COPY ON BOOK.BOOK_ID = BOOK_COPY.BOOK_ID
+GROUP BY CATEGORY.CATEGORY_NAME;
+
+
+-- 3. UPDATE queries:
+--    Update the status of a patron account:
+UPDATE PATRON_ACCOUNT
+SET PATRON_ACCOUNT_STATUS = 'Suspended'
+WHERE PATRON_ID = 1;
+
+--    Update the title of a book:
+UPDATE BOOK
+SET BOOK_TITLE = '1984'
+WHERE BOOK_ID = 7;
+
+
+-- 4. DELETE queries:
+--    Delete a book copy:
+DELETE FROM BOOK_COPY
+WHERE BOOK_COPY_ID = 5;
+
+--    Delete a specific patron account:
+DELETE FROM PATRON_ACCOUNT
+WHERE PATRON_ID = 2;
