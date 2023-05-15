@@ -32,7 +32,7 @@ Task 5: Create Read Update Delete (CRUD) operations
 <br>
 <br>
 
-Task 6: SELECT queries
+Task 6: [SELECT queries](https://github.com/0sant1ago/DATA_BASES/blob/main/select_queries.sql)
 <br>
 <br>
 
